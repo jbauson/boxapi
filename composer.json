@@ -1,7 +1,7 @@
 {
     "name": "jbauson/boxapi",
-    "description": "Boilerplate package for creating other packages.",
-    "keywords": ["template", "composer", "package"],
+    "description": "A very simple Box API for PHP",
+    "keywords": ["box", "boxapi", "boxphp","boxphpapi"],
     "license": "MIT",
     "authors": [
         {
