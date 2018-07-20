@@ -1,0 +1,25 @@
+{
+    "name": "jbauson/boxapi",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Bauson",
+            "email": "jbauson@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jbauson\\Boxapi\\": "src/"
+        }
+    }
+}
